@@ -1,6 +1,7 @@
 # Costas array of order 17
-A permutation p of {1,…,17} whose displacement vectors between pairs of dots are all distinct —
-equivalently, for every shift h the differences p[i+h] − p[i] are pairwise distinct.
+Find a **Costas array of order 17**: a permutation p of {1,…,17} whose displacement vectors between
+pairs of dots are all distinct — equivalently, one for which the differences p[i+h] − p[i] are
+pairwise distinct at every shift h.
 
 Welch's construction gives order p−1 for prime p, which misses 17. The **Lempel–Golomb**
 construction gives order q−2 over GF(q): take q = 19 and solve gⁱ + gʲ = 1.
