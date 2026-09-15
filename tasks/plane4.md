@@ -1,7 +1,7 @@
 # Projective plane of order 4
 A **projective plane of order n** has n²+n+1 points and as many lines, each line holding n+1
-points, with every pair of points on exactly one line. For n = 4 that is **21 points, 21 lines, 5
-points per line**, and every one of the 210 point-pairs covered once.
+points, with every pair of points on exactly one line. For n = 4 that is **21 points, 21 lines and 5
+points per line**, with every one of the 210 point-pairs covered exactly once.
 
 The quickest construction is cyclic: a planar difference set (21,5,1) and all of its 21 translates
 mod 21. That difference set is exactly the `difference21` board.

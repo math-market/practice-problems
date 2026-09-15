@@ -1,6 +1,6 @@
 # No-three-in-line on a 10×10 grid
 Place **20 points** on the 10×10 grid so that no three are collinear. Two per row and two per
-column is forced, since three in a row would be collinear.
+column are forced, since three in any row would be collinear.
 
 Dudeney posed the problem in 1917. The collinearity test is an exact integer cross-product — no
 floating point, so no near-misses from rounding.

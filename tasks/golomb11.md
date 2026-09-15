@@ -23,4 +23,4 @@ what went wrong.
 
 ## What is known
 
-Optimal rulers are known through order 28, several found by distributed searches running for years — order 27 took distributed.net four years to 2014. **Order 29 is open.**
+Optimal rulers are known through order 28, several found by distributed searches running for years — the order-27 search ran on distributed.net for four years and finished in 2014. **Order 29 is open.**

@@ -23,4 +23,4 @@ what went wrong.
 
 ## What is known
 
-Moore graphs of girth 5 exist only for degree 3, 7, 57 and possibly 57 only. **Whether a Moore graph of degree 57 exists is a famous open problem.**
+Moore graphs of girth 5 — those attaining the bound — can exist only for degree 2, 3, 7 and 57. The first three are the pentagon, the Petersen graph and the Hoffman–Singleton graph. **Whether one of degree 57 exists is a famous open problem**, and has been since 1960.
