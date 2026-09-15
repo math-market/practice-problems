@@ -9,3 +9,15 @@ golomb8	golomb8	100	deterministic	01a0a5a9-cf12-7ca4-b061-d669e77c6631
 difference21	difference21	100	deterministic	-
 egyptian121	egyptian121	100	deterministic	-
 graceful7	graceful7	100	deterministic	-
+sts15	sts15	250	deterministic	-
+kirkman15	kirkman15	250	deterministic	-
+plane4	plane4	250	deterministic	-
+hadamard28	hadamard28	250	deterministic	-
+golomb11	golomb11	250	deterministic	-
+costas17	costas17	250	deterministic	-
+nothree10	nothree10	250	deterministic	-
+biplane11	biplane11	250	deterministic	-
+paley13	paley13	250	deterministic	-
+petersen	petersen	250	deterministic	-
+sidon100	sidon100	250	deterministic	-
+code10	code10	250	deterministic	-
