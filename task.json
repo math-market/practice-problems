@@ -51,42 +51,66 @@
       "checker": "debruijn26/check.py",
       "statement": "tasks/debruijn26.md",
       "title": "De Bruijn sequence B(2,6)",
-      "nearMiss": "near-miss-one-duplicate-window.json"
+      "nearMiss": "near-miss-one-duplicate-window.json",
+      "leanStatement": "lean/DeBruijn26.lean",
+      "leanTaskId": "01a0a6c1-0d4d-773c-ae22-6a1a01d2c934",
+      "leanTaskUrl": "https://problem.market/tasks/01a0a6c1-0d4d-773c-ae22-6a1a01d2c934",
+      "leanCriteriaCommit": "8b44959b93c0701d348d8bc0e90d822ad3679b54"
     },
     {
       "board": "debruijn33",
       "checker": "debruijn33/check.py",
       "statement": "tasks/debruijn33.md",
       "title": "De Bruijn sequence B(3,3)",
-      "nearMiss": "near-miss-one-duplicate-window.json"
+      "nearMiss": "near-miss-one-duplicate-window.json",
+      "leanStatement": "lean/DeBruijn33.lean",
+      "leanTaskId": "01a0a6c1-1083-7eda-908f-5e57df805ea6",
+      "leanTaskUrl": "https://problem.market/tasks/01a0a6c1-1083-7eda-908f-5e57df805ea6",
+      "leanCriteriaCommit": "8b44959b93c0701d348d8bc0e90d822ad3679b54"
     },
     {
       "board": "mols4",
       "checker": "mols4/check.py",
       "statement": "tasks/mols4.md",
       "title": "Three mutually orthogonal Latin squares of order 4",
-      "nearMiss": "latin-but-not-orthogonal.json"
+      "nearMiss": "latin-but-not-orthogonal.json",
+      "leanStatement": "lean/Mols4.lean",
+      "leanTaskId": "01a0a6c1-1371-72c7-bccd-50298f8b7246",
+      "leanTaskUrl": "https://problem.market/tasks/01a0a6c1-1371-72c7-bccd-50298f8b7246",
+      "leanCriteriaCommit": "8b44959b93c0701d348d8bc0e90d822ad3679b54"
     },
     {
       "board": "sts13",
       "checker": "sts13/check.py",
       "statement": "tasks/sts13.md",
       "title": "Steiner triple system on 13 points",
-      "nearMiss": "near-miss-one-pair-twice.json"
+      "nearMiss": "near-miss-one-pair-twice.json",
+      "leanStatement": "lean/Sts13.lean",
+      "leanTaskId": "01a0a6c1-15e8-79f1-8ffe-68c4ec71de07",
+      "leanTaskUrl": "https://problem.market/tasks/01a0a6c1-15e8-79f1-8ffe-68c4ec71de07",
+      "leanCriteriaCommit": "8b44959b93c0701d348d8bc0e90d822ad3679b54"
     },
     {
       "board": "hadamard12",
       "checker": "hadamard12/check.py",
       "statement": "tasks/hadamard12.md",
       "title": "Hadamard matrix of order 12",
-      "nearMiss": "one-sign-flipped.json"
+      "nearMiss": "one-sign-flipped.json",
+      "leanStatement": "lean/Hadamard12.lean",
+      "leanTaskId": "01a0a6c1-184e-73dd-aa01-7ad2cfd139d3",
+      "leanTaskUrl": "https://problem.market/tasks/01a0a6c1-184e-73dd-aa01-7ad2cfd139d3",
+      "leanCriteriaCommit": "8b44959b93c0701d348d8bc0e90d822ad3679b54"
     },
     {
       "board": "costas12",
       "checker": "costas12/check.py",
       "statement": "tasks/costas12.md",
       "title": "Costas array of order 12",
-      "nearMiss": "near-miss-fails-one-shift.json"
+      "nearMiss": "near-miss-fails-one-shift.json",
+      "leanStatement": "lean/Costas12.lean",
+      "leanTaskId": "01a0a6c1-1ada-7112-bc18-cce9708bef5d",
+      "leanTaskUrl": "https://problem.market/tasks/01a0a6c1-1ada-7112-bc18-cce9708bef5d",
+      "leanCriteriaCommit": "8b44959b93c0701d348d8bc0e90d822ad3679b54"
     },
     {
       "board": "golomb8",
