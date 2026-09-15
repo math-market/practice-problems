@@ -55,7 +55,8 @@
       "leanStatement": "lean/DeBruijn26.lean",
       "leanTaskId": "01a0a6c1-0d4d-773c-ae22-6a1a01d2c934",
       "leanTaskUrl": "https://problem.market/tasks/01a0a6c1-0d4d-773c-ae22-6a1a01d2c934",
-      "leanCriteriaCommit": "8b44959b93c0701d348d8bc0e90d822ad3679b54"
+      "leanCriteriaCommit": "8b44959b93c0701d348d8bc0e90d822ad3679b54",
+      "tier": 1
     },
     {
       "board": "debruijn33",
@@ -66,7 +67,8 @@
       "leanStatement": "lean/DeBruijn33.lean",
       "leanTaskId": "01a0a6c1-1083-7eda-908f-5e57df805ea6",
       "leanTaskUrl": "https://problem.market/tasks/01a0a6c1-1083-7eda-908f-5e57df805ea6",
-      "leanCriteriaCommit": "8b44959b93c0701d348d8bc0e90d822ad3679b54"
+      "leanCriteriaCommit": "8b44959b93c0701d348d8bc0e90d822ad3679b54",
+      "tier": 1
     },
     {
       "board": "mols4",
@@ -77,7 +79,8 @@
       "leanStatement": "lean/Mols4.lean",
       "leanTaskId": "01a0a6c1-1371-72c7-bccd-50298f8b7246",
       "leanTaskUrl": "https://problem.market/tasks/01a0a6c1-1371-72c7-bccd-50298f8b7246",
-      "leanCriteriaCommit": "8b44959b93c0701d348d8bc0e90d822ad3679b54"
+      "leanCriteriaCommit": "8b44959b93c0701d348d8bc0e90d822ad3679b54",
+      "tier": 1
     },
     {
       "board": "sts13",
@@ -88,7 +91,8 @@
       "leanStatement": "lean/Sts13.lean",
       "leanTaskId": "01a0a6c1-15e8-79f1-8ffe-68c4ec71de07",
       "leanTaskUrl": "https://problem.market/tasks/01a0a6c1-15e8-79f1-8ffe-68c4ec71de07",
-      "leanCriteriaCommit": "8b44959b93c0701d348d8bc0e90d822ad3679b54"
+      "leanCriteriaCommit": "8b44959b93c0701d348d8bc0e90d822ad3679b54",
+      "tier": 1
     },
     {
       "board": "hadamard12",
@@ -99,7 +103,8 @@
       "leanStatement": "lean/Hadamard12.lean",
       "leanTaskId": "01a0a6c1-184e-73dd-aa01-7ad2cfd139d3",
       "leanTaskUrl": "https://problem.market/tasks/01a0a6c1-184e-73dd-aa01-7ad2cfd139d3",
-      "leanCriteriaCommit": "8b44959b93c0701d348d8bc0e90d822ad3679b54"
+      "leanCriteriaCommit": "8b44959b93c0701d348d8bc0e90d822ad3679b54",
+      "tier": 1
     },
     {
       "board": "costas12",
@@ -110,7 +115,8 @@
       "leanStatement": "lean/Costas12.lean",
       "leanTaskId": "01a0a6c1-1ada-7112-bc18-cce9708bef5d",
       "leanTaskUrl": "https://problem.market/tasks/01a0a6c1-1ada-7112-bc18-cce9708bef5d",
-      "leanCriteriaCommit": "8b44959b93c0701d348d8bc0e90d822ad3679b54"
+      "leanCriteriaCommit": "8b44959b93c0701d348d8bc0e90d822ad3679b54",
+      "tier": 1
     },
     {
       "board": "golomb8",
@@ -124,7 +130,8 @@
       "leanStatement": "lean/Golomb8.lean",
       "leanTaskId": "01a0a60c-2150-7dd7-8299-a7e2ed0be4e9",
       "leanTaskUrl": "https://problem.market/tasks/01a0a60c-2150-7dd7-8299-a7e2ed0be4e9",
-      "leanCriteriaCommit": "b3e5be1dbca9488aa79b7700dbe9e87d39c6ee6c"
+      "leanCriteriaCommit": "b3e5be1dbca9488aa79b7700dbe9e87d39c6ee6c",
+      "tier": 1
     },
     {
       "board": "difference21",
@@ -135,7 +142,8 @@
       "leanStatement": "lean/Difference21.lean",
       "leanTaskId": "01a0a620-0799-70e7-a4c4-51d3b32cdaaa",
       "leanTaskUrl": "https://problem.market/tasks/01a0a620-0799-70e7-a4c4-51d3b32cdaaa",
-      "leanCriteriaCommit": "cd3758de933775311ac8b71e8a22abe0cecaf396"
+      "leanCriteriaCommit": "cd3758de933775311ac8b71e8a22abe0cecaf396",
+      "tier": 1
     },
     {
       "board": "egyptian121",
@@ -147,7 +155,8 @@
       "leanStatement": "lean/Egyptian121.lean",
       "leanTaskId": "01a0a620-0c7f-73bc-b064-9c5ad049d1e1",
       "leanTaskUrl": "https://problem.market/tasks/01a0a620-0c7f-73bc-b064-9c5ad049d1e1",
-      "leanCriteriaCommit": "cd3758de933775311ac8b71e8a22abe0cecaf396"
+      "leanCriteriaCommit": "cd3758de933775311ac8b71e8a22abe0cecaf396",
+      "tier": 1
     },
     {
       "board": "graceful7",
@@ -158,7 +167,8 @@
       "leanStatement": "lean/Graceful7.lean",
       "leanTaskId": "01a0a620-09ef-74f3-935a-49ba57760b5c",
       "leanTaskUrl": "https://problem.market/tasks/01a0a620-09ef-74f3-935a-49ba57760b5c",
-      "leanCriteriaCommit": "cd3758de933775311ac8b71e8a22abe0cecaf396"
+      "leanCriteriaCommit": "cd3758de933775311ac8b71e8a22abe0cecaf396",
+      "tier": 1
     },
     {
       "board": "sts15",
@@ -166,7 +176,11 @@
       "statement": "tasks/sts15.md",
       "title": "Steiner triple system on 15 points",
       "nearMiss": "near-miss.json",
-      "leanStatement": "lean/Sts15.lean"
+      "leanStatement": "lean/Sts15.lean",
+      "leanTaskId": "01a0a71a-4802-711c-b8c7-9d555a4bc280",
+      "leanTaskUrl": "https://problem.market/tasks/01a0a71a-4802-711c-b8c7-9d555a4bc280",
+      "leanCriteriaCommit": "c26bbd0b46c869c23c7f0e08d435aec22ca7071f",
+      "tier": 2
     },
     {
       "board": "kirkman15",
@@ -174,7 +188,11 @@
       "statement": "tasks/kirkman15.md",
       "title": "Kirkman's schoolgirl problem",
       "nearMiss": "near-miss.json",
-      "leanStatement": "lean/Kirkman15.lean"
+      "leanStatement": "lean/Kirkman15.lean",
+      "leanTaskId": "01a0a71a-4a30-700f-a9c7-c95878494f36",
+      "leanTaskUrl": "https://problem.market/tasks/01a0a71a-4a30-700f-a9c7-c95878494f36",
+      "leanCriteriaCommit": "c26bbd0b46c869c23c7f0e08d435aec22ca7071f",
+      "tier": 2
     },
     {
       "board": "plane4",
@@ -182,7 +200,11 @@
       "statement": "tasks/plane4.md",
       "title": "Projective plane of order 4",
       "nearMiss": "near-miss.json",
-      "leanStatement": "lean/Plane4.lean"
+      "leanStatement": "lean/Plane4.lean",
+      "leanTaskId": "01a0a71a-4ccb-7382-a764-71c235ca8dc6",
+      "leanTaskUrl": "https://problem.market/tasks/01a0a71a-4ccb-7382-a764-71c235ca8dc6",
+      "leanCriteriaCommit": "c26bbd0b46c869c23c7f0e08d435aec22ca7071f",
+      "tier": 2
     },
     {
       "board": "hadamard28",
@@ -190,7 +212,11 @@
       "statement": "tasks/hadamard28.md",
       "title": "Hadamard matrix of order 28",
       "nearMiss": "near-miss.json",
-      "leanStatement": "lean/Hadamard28.lean"
+      "leanStatement": "lean/Hadamard28.lean",
+      "leanTaskId": "01a0a71a-4ef8-79e1-9680-f2b5d2694c46",
+      "leanTaskUrl": "https://problem.market/tasks/01a0a71a-4ef8-79e1-9680-f2b5d2694c46",
+      "leanCriteriaCommit": "c26bbd0b46c869c23c7f0e08d435aec22ca7071f",
+      "tier": 2
     },
     {
       "board": "golomb11",
@@ -198,7 +224,11 @@
       "statement": "tasks/golomb11.md",
       "title": "Optimal Golomb ruler of order 11",
       "nearMiss": "near-miss.json",
-      "leanStatement": "lean/Golomb11.lean"
+      "leanStatement": "lean/Golomb11.lean",
+      "leanTaskId": "01a0a71a-510b-74f2-a860-61a8c506d5f8",
+      "leanTaskUrl": "https://problem.market/tasks/01a0a71a-510b-74f2-a860-61a8c506d5f8",
+      "leanCriteriaCommit": "c26bbd0b46c869c23c7f0e08d435aec22ca7071f",
+      "tier": 2
     },
     {
       "board": "costas17",
@@ -206,7 +236,11 @@
       "statement": "tasks/costas17.md",
       "title": "Costas array of order 17",
       "nearMiss": "near-miss.json",
-      "leanStatement": "lean/Costas17.lean"
+      "leanStatement": "lean/Costas17.lean",
+      "leanTaskId": "01a0a71a-52fe-74ed-9ef9-a40a8b0312d6",
+      "leanTaskUrl": "https://problem.market/tasks/01a0a71a-52fe-74ed-9ef9-a40a8b0312d6",
+      "leanCriteriaCommit": "c26bbd0b46c869c23c7f0e08d435aec22ca7071f",
+      "tier": 2
     },
     {
       "board": "nothree10",
@@ -214,7 +248,11 @@
       "statement": "tasks/nothree10.md",
       "title": "No-three-in-line on a 10\u00d710 grid",
       "nearMiss": "near-miss.json",
-      "leanStatement": "lean/NoThree10.lean"
+      "leanStatement": "lean/NoThree10.lean",
+      "leanTaskId": "01a0a71a-5530-7c17-9e03-4b2dcd764e98",
+      "leanTaskUrl": "https://problem.market/tasks/01a0a71a-5530-7c17-9e03-4b2dcd764e98",
+      "leanCriteriaCommit": "c26bbd0b46c869c23c7f0e08d435aec22ca7071f",
+      "tier": 2
     },
     {
       "board": "biplane11",
@@ -222,7 +260,11 @@
       "statement": "tasks/biplane11.md",
       "title": "Biplane (11,5,2)",
       "nearMiss": "near-miss.json",
-      "leanStatement": "lean/Biplane11.lean"
+      "leanStatement": "lean/Biplane11.lean",
+      "leanTaskId": "01a0a71a-5722-7153-b748-fb914fab4b1d",
+      "leanTaskUrl": "https://problem.market/tasks/01a0a71a-5722-7153-b748-fb914fab4b1d",
+      "leanCriteriaCommit": "c26bbd0b46c869c23c7f0e08d435aec22ca7071f",
+      "tier": 2
     },
     {
       "board": "paley13",
@@ -230,7 +272,11 @@
       "statement": "tasks/paley13.md",
       "title": "Paley graph of order 13",
       "nearMiss": "near-miss.json",
-      "leanStatement": "lean/Paley13.lean"
+      "leanStatement": "lean/Paley13.lean",
+      "leanTaskId": "01a0a71a-592d-77d1-aa09-85c0704ac197",
+      "leanTaskUrl": "https://problem.market/tasks/01a0a71a-592d-77d1-aa09-85c0704ac197",
+      "leanCriteriaCommit": "c26bbd0b46c869c23c7f0e08d435aec22ca7071f",
+      "tier": 2
     },
     {
       "board": "petersen",
@@ -238,7 +284,11 @@
       "statement": "tasks/petersen.md",
       "title": "A cubic graph of girth 5 on 10 vertices",
       "nearMiss": "near-miss.json",
-      "leanStatement": "lean/Petersen.lean"
+      "leanStatement": "lean/Petersen.lean",
+      "leanTaskId": "01a0a71a-5b28-7733-b5c9-113a4b06c8a9",
+      "leanTaskUrl": "https://problem.market/tasks/01a0a71a-5b28-7733-b5c9-113a4b06c8a9",
+      "leanCriteriaCommit": "c26bbd0b46c869c23c7f0e08d435aec22ca7071f",
+      "tier": 2
     },
     {
       "board": "sidon100",
@@ -246,7 +296,11 @@
       "statement": "tasks/sidon100.md",
       "title": "Sidon set in [1,100]",
       "nearMiss": "near-miss.json",
-      "leanStatement": "lean/Sidon100.lean"
+      "leanStatement": "lean/Sidon100.lean",
+      "leanTaskId": "01a0a71a-5d3d-7b4f-af2e-30c5da146bfc",
+      "leanTaskUrl": "https://problem.market/tasks/01a0a71a-5d3d-7b4f-af2e-30c5da146bfc",
+      "leanCriteriaCommit": "c26bbd0b46c869c23c7f0e08d435aec22ca7071f",
+      "tier": 2
     },
     {
       "board": "code10",
@@ -254,7 +308,11 @@
       "statement": "tasks/code10.md",
       "title": "Binary code (10, 40, 4)",
       "nearMiss": "near-miss.json",
-      "leanStatement": "lean/Code10.lean"
+      "leanStatement": "lean/Code10.lean",
+      "leanTaskId": "01a0a71a-5f40-7d1d-8534-2f228792302f",
+      "leanTaskUrl": "https://problem.market/tasks/01a0a71a-5f40-7d1d-8534-2f228792302f",
+      "leanCriteriaCommit": "c26bbd0b46c869c23c7f0e08d435aec22ca7071f",
+      "tier": 2
     }
   ],
   "submission": {
