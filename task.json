@@ -96,14 +96,22 @@
       "nearMiss": "valid-ruler-length-35.json",
       "id": "01a0a5a9-cf12-7ca4-b061-d669e77c6631",
       "taskUrl": "https://problem.market/tasks/01a0a5a9-cf12-7ca4-b061-d669e77c6631",
-      "criteriaCommit": "b5dba0c802fb27e5e0640dd6be583fd244167ad9"
+      "criteriaCommit": "b5dba0c802fb27e5e0640dd6be583fd244167ad9",
+      "leanStatement": "lean/Golomb8.lean",
+      "leanTaskId": "01a0a60c-2150-7dd7-8299-a7e2ed0be4e9",
+      "leanTaskUrl": "https://problem.market/tasks/01a0a60c-2150-7dd7-8299-a7e2ed0be4e9",
+      "leanCriteriaCommit": "b3e5be1dbca9488aa79b7700dbe9e87d39c6ee6c"
     },
     {
       "board": "difference21",
       "checker": "difference21/check.py",
       "statement": "tasks/difference21.md",
       "title": "Planar difference set (21, 5, 1)",
-      "nearMiss": "near-miss-one-repeated-difference.json"
+      "nearMiss": "near-miss-one-repeated-difference.json",
+      "leanStatement": "lean/Difference21.lean",
+      "leanTaskId": "01a0a620-0799-70e7-a4c4-51d3b32cdaaa",
+      "leanTaskUrl": "https://problem.market/tasks/01a0a620-0799-70e7-a4c4-51d3b32cdaaa",
+      "leanCriteriaCommit": "cd3758de933775311ac8b71e8a22abe0cecaf396"
     },
     {
       "board": "egyptian121",
@@ -111,14 +119,22 @@
       "statement": "tasks/egyptian121.md",
       "title": "5/121 as three distinct unit fractions",
       "nearMiss": "sums-to-wrong-value.json",
-      "nearMissWaiver": "The distinctness clause excludes nothing for this target: exhaustive search over both repetition patterns (a,a,c and a,c,c) finds no triple with a repeated denominator summing to 5/121 at all. The declared nearMiss covers the value condition instead."
+      "nearMissWaiver": "The distinctness clause excludes nothing for this target: exhaustive search over both repetition patterns (a,a,c and a,c,c) finds no triple with a repeated denominator summing to 5/121 at all. The declared nearMiss covers the value condition instead.",
+      "leanStatement": "lean/Egyptian121.lean",
+      "leanTaskId": "01a0a620-0c7f-73bc-b064-9c5ad049d1e1",
+      "leanTaskUrl": "https://problem.market/tasks/01a0a620-0c7f-73bc-b064-9c5ad049d1e1",
+      "leanCriteriaCommit": "cd3758de933775311ac8b71e8a22abe0cecaf396"
     },
     {
       "board": "graceful7",
       "checker": "graceful7/check.py",
       "statement": "tasks/graceful7.md",
       "title": "Graceful labelling of a tree",
-      "nearMiss": "permutation-not-graceful.json"
+      "nearMiss": "permutation-not-graceful.json",
+      "leanStatement": "lean/Graceful7.lean",
+      "leanTaskId": "01a0a620-09ef-74f3-935a-49ba57760b5c",
+      "leanTaskUrl": "https://problem.market/tasks/01a0a620-09ef-74f3-935a-49ba57760b5c",
+      "leanCriteriaCommit": "cd3758de933775311ac8b71e8a22abe0cecaf396"
     }
   ],
   "submission": {
@@ -126,5 +142,6 @@
     "repository": "https://github.com/math-market/practice-problems",
     "license": "Apache-2.0"
   },
-  "$comment_nearMiss": "Every board declares the fixture that is correct in all respects except the one the board turns on -- the fixture that fails for the RIGHT reason. lint.sh runs it and requires exit 1. Where no such fixture can exist, nearMissWaiver says why."
+  "$comment_nearMiss": "Every board declares the fixture that is correct in all respects except the one the board turns on -- the fixture that fails for the RIGHT reason. lint.sh runs it and requires exit 1. Where no such fixture can exist, nearMissWaiver says why.",
+  "$comment_lean": "Boards with a Lean statement can be settled two ways: submit an answer as JSON to the deterministic board, or submit a proof to the Lean board. Both decide the same predicate. The Lean route settles mechanically today; the deterministic one does not yet."
 }
