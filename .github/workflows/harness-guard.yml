@@ -1,0 +1,20 @@
+name: harness-guard
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+permissions: {contents: read, pull-requests: read}
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Reject edits to the judging machinery
+        env: {GH_TOKEN: "${{ github.token }}"}
+        run: |
+          gh api --paginate repos/${{ github.repository }}/pulls/${{ github.event.number }}/files \
+            --jq '.[].filename' > /tmp/changed
+          if grep -Eq '(^\.github/|/examples/|^Dockerfile$|^run\.sh$|/check\.py$|^verify\.sh$|^boards\.tsv$)' /tmp/changed; then
+            echo "This pull request edits the machinery that judges it:"
+            grep -E '(^\.github/|/examples/|^Dockerfile$|^run\.sh$|/check\.py$|^verify\.sh$|^boards\.tsv$)' /tmp/changed
+            exit 1
+          fi
+          echo "harness untouched"

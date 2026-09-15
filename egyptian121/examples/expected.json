@@ -1,0 +1,6 @@
+{
+ "valid.json": 0,
+ "sums-to-wrong-value.json": 1,
+ "malformed.json": 2,
+ "repeated-denominator-wrong-sum.json": 1
+}

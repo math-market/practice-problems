@@ -1,0 +1,6 @@
+{
+ "valid.json": 0,
+ "permutation-not-graceful.json": 1,
+ "repeated-label.json": 1,
+ "wrong-length.json": 1
+}

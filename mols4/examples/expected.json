@@ -1,0 +1,6 @@
+{
+ "valid.json": 0,
+ "latin-but-not-orthogonal.json": 1,
+ "not-latin.json": 1,
+ "two-squares-only.json": 1
+}

@@ -1,0 +1,6 @@
+{
+ "valid.json": 0,
+ "wrong-alphabet.json": 1,
+ "shuffled.json": 1,
+ "missing-field.json": 2
+}

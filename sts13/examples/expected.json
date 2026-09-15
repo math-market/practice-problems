@@ -1,0 +1,6 @@
+{
+ "valid.json": 0,
+ "right-count-wrong-cover.json": 1,
+ "too-few-triples.json": 1,
+ "malformed.json": 2
+}
