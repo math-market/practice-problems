@@ -2,5 +2,6 @@
  "valid.json": 0,
  "identity-permutation.json": 1,
  "not-a-permutation.json": 1,
- "malformed.json": 2
+ "malformed.json": 2,
+ "near-miss-fails-one-shift.json": 1
 }

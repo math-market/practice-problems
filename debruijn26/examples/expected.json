@@ -2,5 +2,6 @@
  "valid.json": 0,
  "near-miss-length-63.json": 1,
  "repeated-window.json": 1,
- "malformed.json": 2
+ "malformed.json": 2,
+ "near-miss-one-duplicate-window.json": 1
 }

@@ -26,6 +26,12 @@ order 668 — are the same shape with the answer removed.
 
 `boards.tsv` maps each board to its directory and bounty.
 
+## Adding a board
+
+[`ADDING-A-BOARD.md`](ADDING-A-BOARD.md) is the procedure. `./new-board.sh <name>` scaffolds one.
+Two rules above the rest: **solve the board yourself before publishing it**, and **make sure every
+rejection fixture fails for the right reason**.
+
 ## Running a checker
 
 ```bash
@@ -53,6 +59,9 @@ means fix your mathematics. Exit `4` is never a verdict against a submission.
 Each board ships fixtures in `examples/` with expected exit codes in `examples/expected.json`, and
 `verify.sh` asserts that every checker both **accepts** something and **rejects** something. A
 checker that only ever rejects passes every rejection fixture and is useless.
+
+`lint.sh` additionally proves every board is *complete* — registered in `boards.tsv`, `task.json`
+and this README, with board text and a declared near-miss that is genuinely rejected.
 
 Where a board states a bound, it also ships a **near-miss** — an answer that is correct in every
 respect except the bound. `golomb8` carries `[0, 1, 8, 20, 22, 25, 31, 35]` — a genuine 8-mark

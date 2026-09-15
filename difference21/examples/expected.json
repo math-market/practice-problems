@@ -2,5 +2,6 @@
  "valid.json": 0,
  "consecutive.json": 1,
  "four-elements.json": 1,
- "malformed.json": 2
+ "malformed.json": 2,
+ "near-miss-one-repeated-difference.json": 1
 }
