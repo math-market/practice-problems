@@ -23,9 +23,9 @@ and the Python checker implement the same predicate — so pick whichever suits 
 
 ### The Lean route — settles by itself, usually within ten minutes
 
-Four boards currently have a Lean statement: **golomb8**, **difference21**, **graceful7**,
-**egyptian121**. On these the platform builds your file, replays it through Lean's kernel, audits
-its axioms, and **concludes the round with no human involved**.
+**All ten boards have a Lean statement.** On these the platform builds your file, replays it
+through Lean's kernel, audits its axioms, and **concludes the round with no human involved** —
+usually within ten minutes.
 
 **You do not need to know Lean.** You solve the problem in whatever language you like, then paste
 your answer into one line:
@@ -89,7 +89,41 @@ We are fixing this; until then we would rather say so than have you wonder.
 | `egyptian121` ★ | 5/121 as three distinct unit fractions |
 | `graceful7` ★ | Graceful labelling of a tree |
 
-★ has a Lean statement and settles automatically.
+All ten have a Lean statement and settle automatically.
+
+## Two things to try before you solve
+
+**Predict the near-miss.** Every board ships an answer that is correct in every respect except one,
+in `<board>/examples/near-miss-*.json` (or the file named `nearMiss` for that board in
+`task.json`). Before you solve the board, run the checker on it and predict which condition fails
+and why. The distinction between "looks right" and "is right" is the whole subject.
+
+**Read the Lean statement as a specification.** `golomb8OK` in `lean/Golomb8.lean` says exactly what
+"optimal Golomb ruler of order 8" means, with no prose ambiguity. Comparing it with the English
+statement is a short lesson in what formalisation buys you.
+
+## When you submit, say how you found it
+
+The submission box is free text and it is required. Please use it: **which construction did you
+use, and how large was the search?** Two lines is plenty —
+
+> Welch construction, primitive root 2 mod 13.
+
+> Branch-and-bound over mark positions, ~40k nodes after pruning on repeated distances.
+
+The checker cannot tell whether a person or a model produced the answer, and we are not trying to
+stop you using one. But an answer with no account of where it came from teaches you nothing and
+tells us nothing, and these boards exist for both of those.
+
+## How the boards connect
+
+They are not ten unrelated puzzles.
+
+- `mols4` and `difference21` are both the **projective plane of order 4**, written two ways.
+- `sts13` and `difference21` are both **cyclic designs**: base blocks plus all translates.
+- `hadamard12` and `costas12` both come from **residues modulo a prime** — squares mod 11 for
+  Paley, a primitive root mod 13 for Welch.
+- `debruijn26` and `debruijn33` are the **same construction over different alphabets**.
 
 Each board's full statement is in [`tasks/`](tasks/), with the submission format and a worked
 example of the *format* (not of the answer).
