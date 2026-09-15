@@ -93,7 +93,10 @@
       "checker": "golomb8/check.py",
       "statement": "tasks/golomb8.md",
       "title": "Optimal Golomb ruler of order 8",
-      "nearMiss": "valid-ruler-length-35.json"
+      "nearMiss": "valid-ruler-length-35.json",
+      "id": "01a0a5a9-cf12-7ca4-b061-d669e77c6631",
+      "taskUrl": "https://problem.market/tasks/01a0a5a9-cf12-7ca4-b061-d669e77c6631",
+      "criteriaCommit": "b5dba0c802fb27e5e0640dd6be583fd244167ad9"
     },
     {
       "board": "difference21",
