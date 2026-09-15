@@ -1,0 +1,47 @@
+{
+  "$comment": "Machine-readable form of README.md. This repository carries ten deterministic boards; see `tasks`. No Lean toolchain — every checker is plain Python 3.12 and the image is built from the Dockerfile at this root.",
+  "board": "practice-problems",
+  "title": "Practice problems — deterministic boards with known answers",
+  "platform": "problem.market",
+  "tier": "deterministic",
+  "status": "open",
+  "checker": {
+    "language": "python",
+    "version": "3.12",
+    "entrypoint": "./run.sh <board> <submission.json>",
+    "image": "Dockerfile",
+    "sandbox": ["--network none", "--read-only", "--cap-drop ALL"]
+  },
+  "additionalDependenciesAllowed": false,
+  "prerequisites": {"tools": ["git", "python3"], "freeDiskGB": 1},
+  "exitCodes": {
+    "0": "valid — the submission is accepted",
+    "1": "invalid — the submission is wrong; the message says how",
+    "2": "unreadable — the file is not in the stated format; no verdict",
+    "4": "checker failed — never a verdict against a submission"
+  },
+  "winConditions": {"checkerExitZero": true},
+  "protectedPaths": [
+    ".github/", "boards.tsv", "verify.sh", "run.sh", "Dockerfile", "task.json",
+    "*/check.py", "*/examples/"
+  ],
+  "selfCheck": "./verify.sh <board>",
+  "$comment_tasks": "One entry per board. `id` is filled in as each board is posted; `criteriaCommit` is the commit that board pins.",
+  "tasks": [
+    {"board": "debruijn26",   "checker": "debruijn26/check.py",   "statement": "tasks/debruijn26.md",   "title": "De Bruijn sequence B(2,6)"},
+    {"board": "debruijn33",   "checker": "debruijn33/check.py",   "statement": "tasks/debruijn33.md",   "title": "De Bruijn sequence B(3,3)"},
+    {"board": "mols4",        "checker": "mols4/check.py",        "statement": "tasks/mols4.md",        "title": "Three mutually orthogonal Latin squares of order 4"},
+    {"board": "sts13",        "checker": "sts13/check.py",        "statement": "tasks/sts13.md",        "title": "Steiner triple system on 13 points"},
+    {"board": "hadamard12",   "checker": "hadamard12/check.py",   "statement": "tasks/hadamard12.md",   "title": "Hadamard matrix of order 12"},
+    {"board": "costas12",     "checker": "costas12/check.py",     "statement": "tasks/costas12.md",     "title": "Costas array of order 12"},
+    {"board": "golomb8",      "checker": "golomb8/check.py",      "statement": "tasks/golomb8.md",      "title": "Optimal Golomb ruler of order 8"},
+    {"board": "difference21", "checker": "difference21/check.py", "statement": "tasks/difference21.md", "title": "Planar difference set (21, 5, 1)"},
+    {"board": "egyptian121",  "checker": "egyptian121/check.py",  "statement": "tasks/egyptian121.md",  "title": "5/121 as three distinct unit fractions"},
+    {"board": "graceful7",    "checker": "graceful7/check.py",    "statement": "tasks/graceful7.md",    "title": "Graceful labelling of a tree"}
+  ],
+  "submission": {
+    "method": "platform",
+    "repository": "https://github.com/math-market/practice-problems",
+    "license": "Apache-2.0"
+  }
+}
