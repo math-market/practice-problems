@@ -321,7 +321,10 @@
       "title": "Ramsey colouring of K17",
       "nearMiss": "near-miss.json",
       "leanStatement": "lean/Ramsey17.lean",
-      "tier": 3
+      "tier": 3,
+      "leanTaskId": "01a0a7be-28b7-77d3-b4a8-31e1638138ba",
+      "leanTaskUrl": "https://problem.market/tasks/01a0a7be-28b7-77d3-b4a8-31e1638138ba",
+      "leanCriteriaCommit": "3fcdd914897677b882507e5a3403835fff0e413c"
     },
     {
       "board": "sts19",
@@ -330,7 +333,10 @@
       "title": "Steiner triple system on 19 points",
       "nearMiss": "near-miss.json",
       "leanStatement": "lean/Sts19.lean",
-      "tier": 3
+      "tier": 3,
+      "leanTaskId": "01a0a7be-2af1-7ba3-97eb-3a1b8448afbc",
+      "leanTaskUrl": "https://problem.market/tasks/01a0a7be-2af1-7ba3-97eb-3a1b8448afbc",
+      "leanCriteriaCommit": "3fcdd914897677b882507e5a3403835fff0e413c"
     },
     {
       "board": "golomb13",
@@ -339,7 +345,10 @@
       "title": "Optimal Golomb ruler of order 13",
       "nearMiss": "near-miss.json",
       "leanStatement": "lean/Golomb13.lean",
-      "tier": 3
+      "tier": 3,
+      "leanTaskId": "01a0a7be-2d78-78f3-9de3-1b44f6a64273",
+      "leanTaskUrl": "https://problem.market/tasks/01a0a7be-2d78-78f3-9de3-1b44f6a64273",
+      "leanCriteriaCommit": "3fcdd914897677b882507e5a3403835fff0e413c"
     },
     {
       "board": "heilbronn7",
@@ -348,7 +357,10 @@
       "title": "Heilbronn configuration, n = 7",
       "nearMiss": "near-miss.json",
       "leanStatement": "lean/Heilbronn7.lean",
-      "tier": 3
+      "tier": 3,
+      "leanTaskId": "01a0a7be-2fde-76c4-ab49-da6c1334a56d",
+      "leanTaskUrl": "https://problem.market/tasks/01a0a7be-2fde-76c4-ab49-da6c1334a56d",
+      "leanCriteriaCommit": "3fcdd914897677b882507e5a3403835fff0e413c"
     },
     {
       "board": "spread11",
@@ -357,7 +369,10 @@
       "title": "Eleven points spread in a square",
       "nearMiss": "near-miss.json",
       "leanStatement": "lean/Spread11.lean",
-      "tier": 3
+      "tier": 3,
+      "leanTaskId": "01a0a7be-31cb-71e1-9aac-500924bb529e",
+      "leanTaskUrl": "https://problem.market/tasks/01a0a7be-31cb-71e1-9aac-500924bb529e",
+      "leanCriteriaCommit": "3fcdd914897677b882507e5a3403835fff0e413c"
     },
     {
       "board": "complexity",
@@ -366,7 +381,10 @@
       "title": "Integer complexity",
       "nearMiss": "near-miss.json",
       "leanStatement": "lean/Complexity.lean",
-      "tier": 3
+      "tier": 3,
+      "leanTaskId": "01a0a7be-33eb-719e-ba76-fecde73b2d45",
+      "leanTaskUrl": "https://problem.market/tasks/01a0a7be-33eb-719e-ba76-fecde73b2d45",
+      "leanCriteriaCommit": "3fcdd914897677b882507e5a3403835fff0e413c"
     }
   ],
   "submission": {
