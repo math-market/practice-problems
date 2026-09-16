@@ -405,7 +405,10 @@
       "title": "No-three-in-line on a 14\u00d714 grid",
       "nearMiss": "near-miss.json",
       "leanStatement": "lean/NoThree14.lean",
-      "tier": 3
+      "tier": 3,
+      "leanTaskId": "01a0aa83-ed27-76bb-a848-8761028cc0e4",
+      "leanTaskUrl": "https://problem.market/tasks/01a0aa83-ed27-76bb-a848-8761028cc0e4",
+      "leanCriteriaCommit": "e562051147ceabc4eb92683a4abed7abd303515d"
     }
   ],
   "submission": {
