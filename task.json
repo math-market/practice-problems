@@ -397,6 +397,15 @@
       "leanTaskId": "01a0a7e0-1106-7603-a7f3-516ac0a00ff4",
       "leanTaskUrl": "https://problem.market/tasks/01a0a7e0-1106-7603-a7f3-516ac0a00ff4",
       "leanCriteriaCommit": "412085bac130411f6f73487d01681c89a8aeffaf"
+    },
+    {
+      "board": "nothree14",
+      "checker": "nothree14/check.py",
+      "statement": "tasks/nothree14.md",
+      "title": "No-three-in-line on a 14\u00d714 grid",
+      "nearMiss": "near-miss.json",
+      "leanStatement": "lean/NoThree14.lean",
+      "tier": 3
     }
   ],
   "submission": {

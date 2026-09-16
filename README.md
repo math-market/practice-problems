@@ -42,6 +42,7 @@ order 668 — are the same shape with the answer removed.
 | `spread11` | Eleven points spread in a square | [tasks/spread11.md](tasks/spread11.md) |
 | `complexity` | Integer complexity | [tasks/complexity.md](tasks/complexity.md) |
 | `costas19` | Costas array of order 19 | [tasks/costas19.md](tasks/costas19.md) |
+| `nothree14` | No-three-in-line on a 14×14 grid | [tasks/nothree14.md](tasks/nothree14.md) |
 
 `boards.tsv` maps each board to its directory and bounty.
 
