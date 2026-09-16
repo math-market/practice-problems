@@ -35,6 +35,12 @@ order 668 — are the same shape with the answer removed.
 | `petersen` | A cubic graph of girth 5 on 10 vertices | [tasks/petersen.md](tasks/petersen.md) |
 | `sidon100` | Sidon set in [1,100] | [tasks/sidon100.md](tasks/sidon100.md) |
 | `code10` | Binary code (10, 40, 4) | [tasks/code10.md](tasks/code10.md) |
+| `ramsey17` | Ramsey colouring of K17 | [tasks/ramsey17.md](tasks/ramsey17.md) |
+| `sts19` | Steiner triple system on 19 points | [tasks/sts19.md](tasks/sts19.md) |
+| `golomb13` | Optimal Golomb ruler of order 13 | [tasks/golomb13.md](tasks/golomb13.md) |
+| `heilbronn7` | Heilbronn configuration, n = 7 | [tasks/heilbronn7.md](tasks/heilbronn7.md) |
+| `spread11` | Eleven points spread in a square | [tasks/spread11.md](tasks/spread11.md) |
+| `complexity` | Integer complexity | [tasks/complexity.md](tasks/complexity.md) |
 
 `boards.tsv` maps each board to its directory and bounty.
 

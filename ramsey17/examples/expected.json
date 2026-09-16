@@ -1,0 +1,6 @@
+{
+ "valid.json": 0,
+ "near-miss.json": 1,
+ "truncated.json": 2,
+ "malformed.json": 2
+}
