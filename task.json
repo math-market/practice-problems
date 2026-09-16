@@ -393,7 +393,10 @@
       "title": "Costas array of order 19",
       "nearMiss": "near-miss.json",
       "leanStatement": "lean/Costas19.lean",
-      "tier": 3
+      "tier": 3,
+      "leanTaskId": "01a0a7e0-1106-7603-a7f3-516ac0a00ff4",
+      "leanTaskUrl": "https://problem.market/tasks/01a0a7e0-1106-7603-a7f3-516ac0a00ff4",
+      "leanCriteriaCommit": "412085bac130411f6f73487d01681c89a8aeffaf"
     }
   ],
   "submission": {
