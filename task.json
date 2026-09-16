@@ -385,6 +385,15 @@
       "leanTaskId": "01a0a7be-33eb-719e-ba76-fecde73b2d45",
       "leanTaskUrl": "https://problem.market/tasks/01a0a7be-33eb-719e-ba76-fecde73b2d45",
       "leanCriteriaCommit": "3fcdd914897677b882507e5a3403835fff0e413c"
+    },
+    {
+      "board": "costas19",
+      "checker": "costas19/check.py",
+      "statement": "tasks/costas19.md",
+      "title": "Costas array of order 19",
+      "nearMiss": "near-miss.json",
+      "leanStatement": "lean/Costas19.lean",
+      "tier": 3
     }
   ],
   "submission": {
